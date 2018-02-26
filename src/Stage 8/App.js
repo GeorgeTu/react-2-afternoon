@@ -5,11 +5,18 @@ import Employee from './models/Employee';
 // components
 
 class App extends Component {
-  // constructor
+constructor()
+super()
+
+
+this.selectEmployee=this.selectEmployee.bind(this);
+this.refresh=this.refresh.bind(this);
 
   // selectEmployee
 
-  // refresh
+refresh(){
+  this.setState({})
+}
 
   render() {
     return (
