@@ -1,3 +1,4 @@
+import React, { Component } from 'react';
 export default class Employee {
   constructor(id, name, phone, title){
     this.id=id;
